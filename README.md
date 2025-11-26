@@ -46,7 +46,7 @@ Follow these steps for a typical program, using `stack.c` as an example:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/aradhya0507/Data-Structures.git
+    git clone https://github.com/Aradhya-Bhagwat/Data-Structures.git
     ```
 2.  **Compile the file:**
     ```bash
