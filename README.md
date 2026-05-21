@@ -1,65 +1,62 @@
-## 💾 Data Structures C Programs (Engineering Semester 3)
+# 📚 Data Structures in C (Semester 3)
 
-This repository contains my collection of **C programming language** implementations for fundamental **Data Structures**, created as part of my **Engineering Semester 3** curriculum.
+[![C](https://img.shields.io/badge/Language-C-blue.svg)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![Course](https://img.shields.io/badge/Course-Data_Structures-brightgreen.svg)]()
+[![Status](https://img.shields.io/badge/Status-Completed-success.svg)]()
 
-These programs cover the essential concepts and algorithms used in computer science to efficiently organize and manage data.
+Welcome to my repository for **Data Structures and Algorithms** implemented in **C**. This repository contains a collection of fundamental data structures and algorithmic implementations developed during my 3rd Semester Engineering curriculum.
 
-### ✨ Key Features
+## 🎯 Objective
+The primary goal of this repository is to demonstrate a solid understanding of core computer science concepts by implementing foundational data structures from scratch in the C programming language.
 
-  * **Core Data Structures:** Implementations of common structures like Stacks, Queues, Linked Lists, and various algorithms.
-  * **C Language:** All programs are written in the C programming language.
-  * **Educational Focus:** Demonstrates practical understanding of Data Structures and Algorithms (DSA) concepts.
+## 📂 Repository Contents
 
------
+I have reviewed all the assignments, and the table below accurately reflects the implementations present in the source files:
 
-### 📂 Repository Contents
-
-The table below lists the files found in this repository, corresponding to the C source files shown in your screenshot, along with a brief description of the data structure or algorithm implemented in each:
-
-| Filename | Data Structure / Algorithm Implemented | Description |
+| File | Topic / Assignment Description | Core Concepts Covered |
 | :--- | :--- | :--- |
-| `binary.c` | **Binary Tree** | Implementation of a basic **Binary Tree** data structure and its core operations. |
-| `dictionary.c` | **Dictionary using BST** | Implementation of a **Dictionary** Abstract Data Type (ADT) using a **Binary Search Tree (BST)** for key-value storage. |
-| `huffman.c` | **Huffman Coding** | Implementation of the **Huffman compression algorithm**. |
-| `queue.c` | **Queue** | Implementation of the **Queue** data structure (FIFO - First In, First Out). |
-| `sll.c` | **Singly Linked List (SLL)** | Implementation of basic **Singly Linked List** operations (insertion, deletion, traversal). |
-| `sort.c` | **Multiple Sorting Algorithms** | Includes implementations of **Bubble Sort**, **Insertion Sort**, and **Selection Sort** algorithms in a single file. |
-| `sparse.c` | **Sparse Matrix Operations** | Implementation of the **Sparse Matrix** representation, including **Simple Transpose** and **Fast Transpose** algorithms. |
-| `stack.c` | **Stack** | Implementation of the **Stack** data structure (LIFO - Last In, First Out). |
-| `thread.c` | **Threaded Binary Tree (TBT)** | Implementation of the **Threaded Binary Tree** to facilitate efficient in-order traversal without an explicit stack. |
+| `binary.c` | **Binary Tree** | Creation, Recursive & Non-Recursive Traversals (Inorder, Preorder, Postorder). |
+| `dictionary.c` | **Binary Search Tree (BST)** | Dictionary ADT, Insertion, Level-wise display, Tree Copy, Tree Mirroring. |
+| `huffman.c` | **Huffman Coding** | Greedy Algorithm, Data Compression, Priority Queue. |
+| `queue.c` | **Linear & Circular Queue** | Job Queue Simulation, FIFO principles, Circular Queue incrementation. |
+| `sll.c` | **Singly Linked List** | Pinnacle Club management, Insertion, Deletion, Merging, Selection Sort on SLL. |
+| `sort.c` | **Sorting Algorithms** | Student Database sorting using Bubble Sort, Selection Sort, and Insertion Sort. |
+| `sparse.c` | **Sparse Matrix** | Array Representation, Simple Transpose, Fast Transpose. |
+| `stack.c` | **Stack ADT** | LIFO principles, Expression Conversions (Infix to Postfix/Prefix, Postfix/Prefix to Prefix/Postfix). |
+| `thread.c` | **Threaded Binary Tree** | Threaded Binary Tree Creation, Inorder Traversal without recursion or stack. |
 
------
+## 🚀 Getting Started
 
-### 🚀 Getting Started
+To run these programs locally on your machine, follow the instructions below.
 
-These programs are written in standard C and can be compiled and run using any standard C compiler (like GCC).
+### Prerequisites
+You will need a standard C compiler installed on your system.
+* **Windows:** Install [MinGW](http://www.mingw.org/) or [TDM-GCC](https://jmeubank.github.io/tdm-gcc/).
+* **Linux:** GCC is usually pre-installed. (If not, run `sudo apt install build-essential`).
+* **macOS:** Install Xcode command line tools (`xcode-select --install`).
 
-#### **Prerequisites**
+### Compilation & Execution
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Aradhya-Bhagwat/Data-Structures.git
+   cd Data-Structures
+   ```
+2. **Compile a file** (using `stack.c` as an example):
+   ```bash
+   gcc stack.c -o stack
+   ```
+3. **Run the compiled executable:**
+   * On Windows:
+     ```bash
+     stack.exe
+     ```
+   * On Linux/macOS:
+     ```bash
+     ./stack
+     ```
 
-You will need a C compiler installed on your system.
+## 🧑‍💻 Author
+**Aradhya Bhagwat**  
 
-  * **Windows/Linux/macOS:** [GCC (GNU Compiler Collection)](https://gcc.gnu.org/) is highly recommended.
-
-#### **Compiling and Running**
-
-Follow these steps for a typical program, using `stack.c` as an example:
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/Aradhya-Bhagwat/Data-Structures.git
-    ```
-2.  **Compile the file:**
-    ```bash
-    gcc stack.c -o stack
-    ```
-3.  **Run the executable:**
-    ```bash
-    ./stack
-    ```
-    *(Note: On Windows, you would typically run `stack.exe`)*
-
------
-
-### 🧑‍💻 Author
-
-  * **Aradhya Bhagwat**
+---
+⭐️ *If you found this repository helpful or interesting, feel free to give it a star!*
