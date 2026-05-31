@@ -11,7 +11,7 @@ The primary goal of this repository is to demonstrate a solid understanding of c
 
 ## 📂 Repository Contents
 
-I have reviewed all the assignments, and the table below accurately reflects the implementations present in the source files:
+The table below accurately reflects the implementations present in the source files:
 
 | File | Topic / Assignment Description | Core Concepts Covered |
 | :--- | :--- | :--- |
